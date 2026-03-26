@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portafolio Profesional</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'portafolio/home.css' %}" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <div class="hero__content">
+          <p class="badge">Django • Portafolio</p>
+          <h1>Portafolio Profesional</h1>
+          <p class="subtitle">Elige un perfil para ver la hoja de vida.</p>
+        </div>
+      </header>
+
+      <section class="grid" aria-label="Perfiles">
+        <a class="card" href="{% url 'carlos' %}">
+          <div class="card__icon" aria-hidden="true">CA</div>
+          <div class="card__body">
+            <h2>Carlos Andrés</h2>
+            <p>Hoja de vida y perfil.</p>
+          </div>
+          <span class="card__cta" aria-hidden="true">Ver →</span>
+        </a>
+
+        <a class="card" href="{% url 'developer1-home' %}">
+          <div class="card__icon" aria-hidden="true">JM</div>
+          <div class="card__body">
+            <h2>Juan Manuel</h2>
+            <p>Hoja de vida y portafolio.</p>
+          </div>
+          <span class="card__cta" aria-hidden="true">Ver →</span>
+        </a>
+      </section>
+
+      <footer class="footer">
+        <span>© {% now "Y" %} Portafolio Profesional</span>
+      </footer>
+    </main>
+  </body>
+</html>
+
