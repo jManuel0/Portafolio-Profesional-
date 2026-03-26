@@ -1,0 +1,244 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>William Inzandara | Portfolio</title>
+  <link rel="stylesheet" href="{% static 'developer3/style.css' %}">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="noise"></div>
+
+  <aside class="sidebar">
+    <div class="sidebar-top">
+      <div class="avatar-ring">
+        <div class="avatar-inner">WI</div>
+      </div>
+      <div class="sidebar-name">William<br>Inzandara</div>
+      <div class="sidebar-role">Software Engineer</div>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a href="#perfil" class="nav-link active">
+        <span class="nav-num">01</span><span>Perfil</span>
+      </a>
+      <a href="#datos" class="nav-link">
+        <span class="nav-num">02</span><span>Datos</span>
+      </a>
+      <a href="#formacion" class="nav-link">
+        <span class="nav-num">03</span><span>Formación</span>
+      </a>
+      <a href="#habilidades" class="nav-link">
+        <span class="nav-num">04</span><span>Skills</span>
+      </a>
+      <a href="#repositorios" class="nav-link">
+        <span class="nav-num">05</span><span>Repos</span>
+      </a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <a href="https://github.com/williamInzandara" target="_blank" class="gh-link">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        williamInzandara
+      </a>
+    </div>
+  </aside>
+
+  <main class="main">
+
+    <div class="hero-band">
+      <div class="hero-text">
+        <span class="hero-eyebrow">Portafolio Profesional · 2025</span>
+        <h1 class="hero-title"><em>William</em><br>Inzandara</h1>
+      </div>
+      <div class="hero-meta">
+        <div class="meta-chip">Ing. Software</div>
+        <div class="meta-chip">20 años</div>
+        <div class="meta-chip">Colombia</div>
+      </div>
+    </div>
+
+    <section class="section" id="perfil">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2 class="section-title">Perfil Profesional</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="section-body">
+        <p class="lead-text">Estudiante de Ingeniería en Software con enfoque en desarrollo web, arquitectura de software y control de versiones colaborativo.</p>
+        <p class="body-text">Comprometido con las buenas prácticas de desarrollo, metodologías ágiles y construcción de soluciones tecnológicas de calidad. Experiencia trabajando en proyectos colaborativos usando Django, Python, Git/GitHub y diseño de interfaces con HTML y CSS.</p>
+      </div>
+    </section>
+
+    <section class="section" id="datos">
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <h2 class="section-title">Datos Personales</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="section-body">
+        <div class="data-grid">
+          <div class="data-block">
+            <span class="data-label">Nombre</span>
+            <span class="data-value">William Inzandara</span>
+          </div>
+          <div class="data-block">
+            <span class="data-label">Edad</span>
+            <span class="data-value">20 años</span>
+          </div>
+          <div class="data-block">
+            <span class="data-label">Carrera</span>
+            <span class="data-value">Ingeniería en Software</span>
+          </div>
+          <div class="data-block">
+            <span class="data-label">Ubicación</span>
+            <span class="data-value">Colombia</span>
+          </div>
+          <div class="data-block">
+            <span class="data-label">GitHub</span>
+            <span class="data-value"><a href="https://github.com/williamInzandara" target="_blank">williamInzandara</a></span>
+          </div>
+          <div class="data-block">
+            <span class="data-label">Estado</span>
+            <span class="data-value status-active"><span class="status-dot"></span>Disponible</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="formacion">
+      <div class="section-header">
+        <span class="section-num">03</span>
+        <h2 class="section-title">Formación Académica</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="section-body">
+        <div class="timeline">
+          <div class="timeline-entry">
+            <div class="timeline-year">2023<br><span>→ Hoy</span></div>
+            <div class="timeline-card">
+              <div class="tcard-top">
+                <h3>Ingeniería en Software</h3>
+                <span class="tcard-badge">En curso</span>
+              </div>
+              <p>Formación integral en desarrollo de software: estructuras de datos, bases de datos, redes, arquitectura, metodologías ágiles y herramientas colaborativas.</p>
+              <div class="tcard-tags">
+                <span>Python</span><span>Django</span><span>Git</span><span>SQL</span><span>Redes</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="habilidades">
+      <div class="section-header">
+        <span class="section-num">04</span>
+        <h2 class="section-title">Habilidades Técnicas</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="section-body">
+        <div class="skills-list">
+          <div class="skill-row">
+            <div class="skill-info"><span class="skill-name">Python</span><span class="skill-level">Intermedio</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="--w:70%"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span class="skill-name">Django</span><span class="skill-level">Intermedio</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="--w:65%"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span class="skill-name">HTML &amp; CSS</span><span class="skill-level">Avanzado</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span class="skill-name">Git &amp; GitHub</span><span class="skill-level">Avanzado</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span class="skill-name">JavaScript</span><span class="skill-level">Básico</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="--w:45%"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-info"><span class="skill-name">SQL</span><span class="skill-level">Intermedio</span></div>
+            <div class="skill-bar"><div class="skill-fill" style="--w:60%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="repositorios">
+      <div class="section-header">
+        <span class="section-num">05</span>
+        <h2 class="section-title">Repositorios</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="section-body">
+        <div class="repo-grid">
+          <a href="https://github.com/williamInzandara" target="_blank" class="repo-card">
+            <div class="repo-card-top">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              <span class="repo-arrow">↗</span>
+            </div>
+            <div class="repo-name">Portafolio Profesional</div>
+            <div class="repo-desc">Sistema Django multi-app con portafolios individuales por desarrollador. Trabajo colaborativo con GitFlow.</div>
+            <div class="repo-langs">
+              <span class="lang-dot python"></span>Python
+              <span class="lang-dot html"></span>HTML
+              <span class="lang-dot css"></span>CSS
+            </div>
+          </a>
+          <a href="https://github.com/williamInzandara" target="_blank" class="repo-card repo-card--ghost">
+            <div class="repo-card-top">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              <span class="repo-arrow">↗</span>
+            </div>
+            <div class="repo-name">Ver todos los repos</div>
+            <div class="repo-desc">Explora todos los proyectos académicos y ejercicios en el perfil de GitHub.</div>
+            <div class="repo-langs"><span style="font-size:0.75rem;opacity:0.5;">github.com/williamInzandara</span></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>© 2025 William Inzandara</span>
+      <span class="footer-sep">·</span>
+      <span>Ingeniería en Software</span>
+      <span class="footer-sep">·</span>
+      <span>Developer 3</span>
+    </footer>
+
+  </main>
+
+  <script>
+    const sections = document.querySelectorAll('.section');
+    const navLinks = document.querySelectorAll('.nav-link');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navLinks.forEach(l => l.classList.remove('active'));
+          const id = entry.target.getAttribute('id');
+          const active = document.querySelector('.nav-link[href="#' + id + '"]');
+          if (active) active.classList.add('active');
+        }
+      });
+    }, { threshold: 0.4 });
+    sections.forEach(s => observer.observe(s));
+
+    const bars = document.querySelectorAll('.skill-fill');
+    const barObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.width = getComputedStyle(entry.target).getPropertyValue('--w');
+        }
+      });
+    }, { threshold: 0.1 });
+    bars.forEach(b => barObserver.observe(b));
+  </script>
+
+</body>
+</html>
