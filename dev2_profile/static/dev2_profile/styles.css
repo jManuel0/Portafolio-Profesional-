@@ -130,6 +130,15 @@ a {
     font-weight: 700;
 }
 
+.contact-list a {
+    color: var(--muted);
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    color: var(--accent);
+}
+
 .content-grid {
     display: grid;
     grid-template-columns: 1.75fr 1fr;

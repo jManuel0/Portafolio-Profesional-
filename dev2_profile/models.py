@@ -1,3 +1,3 @@
 from django.db import models
 
-# Create your models here.
+# This app renders a static portfolio page, so no models are required.
