@@ -71,7 +71,8 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.14);
 }
 
-.foto-placeholder {
+.foto-placeholder,
+.foto {
     width: 104px;
     height: 104px;
     border-radius: 50%;
@@ -82,6 +83,12 @@ body {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
     display: grid;
     place-items: center;
+}
+
+.foto {
+    object-fit: cover;
+    object-position: center;
+    background: rgba(255, 255, 255, 0.18);
 }
 
 .foto-placeholder::after {
