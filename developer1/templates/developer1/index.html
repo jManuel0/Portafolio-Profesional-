@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Developer 1</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'developer1/style.css' %}">
+</head>
+<body>
+    <div class="container">
+
+        <section class="perfil">
+            <div class="foto-placeholder"></div>
+            <h1>[Nombre Completo]</h1>
+            <p class="cargo">Desarrollador Web</p>
+            <p class="contacto">[email] | [telefono] | [ciudad]</p>
+        </section>
+
+        <section class="seccion">
+            <h2>Sobre mí</h2>
+            <p>Estudiante de desarrollo de software con interés en tecnologías web y trabajo en equipo.</p>
+        </section>
+
+        <section class="seccion">
+            <h2>Formación Académica</h2>
+            <div class="item">
+                <h3>[Nombre del programa]</h3>
+                <p>[Institución] — [Año inicio] - [Año fin]</p>
+            </div>
+        </section>
+
+        <section class="seccion">
+            <h2>Datos Personales</h2>
+            <ul>
+                <li><strong>Fecha de nacimiento:</strong> [fecha]</li>
+                <li><strong>Nacionalidad:</strong> [nacionalidad]</li>
+                <li><strong>Repositorio:</strong> <a href="https://github.com/jManuel0/Portafolio-Profesional-" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+
+        <section class="seccion">
+            <h2>Perfil Profesional</h2>
+            <p>Habilidades en HTML, CSS, Python y Django. Trabajo colaborativo bajo GitFlow.</p>
+        </section>
+
+        <section class="seccion">
+            <h2>Portafolios</h2>
+            <div class="item">
+                <h3>Portafolio Profesional</h3>
+                <p>App web desarrollada con Django como parte de un proyecto colaborativo con GitFlow.</p>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
