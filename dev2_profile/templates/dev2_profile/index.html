@@ -1,0 +1,168 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Professional CV for Developer 2, focused on backend development, APIs, and modern Django applications."
+    >
+    <title>Developer 2 | Professional CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="{% static 'dev2_profile/styles.css' %}">
+</head>
+<body>
+    <main class="resume-shell">
+        <section class="hero">
+            <div class="hero__content">
+                <p class="hero__eyebrow">Developer 2 · Django Portfolio</p>
+                <h1 class="hero__title">Laura Mendoza</h1>
+                <p class="hero__role">Backend Developer & Django Specialist</p>
+                <p class="hero__summary">
+                    Systems engineering student with experience building reliable web platforms,
+                    REST APIs, and user-focused interfaces. Passionate about clean architecture,
+                    maintainable code, and collaborative delivery.
+                </p>
+            </div>
+
+            <aside class="contact-card">
+                <h2>Personal Info</h2>
+                <ul class="contact-list">
+                    <li><span>Email</span> laura.mendoza.dev@example.com</li>
+                    <li><span>Phone</span> +57 310 555 0184</li>
+                    <li><span>Location</span> Pasto, Colombia</li>
+                    <li><span>Availability</span> Internship / Junior roles</li>
+                </ul>
+            </aside>
+        </section>
+
+        <section class="content-grid">
+            <div class="main-column">
+                <article class="panel">
+                    <div class="panel__header">
+                        <p class="panel__label">Profile</p>
+                        <h2>Professional Profile</h2>
+                    </div>
+                    <p>
+                        I enjoy building secure and scalable web solutions using Django, Python,
+                        HTML, CSS, and JavaScript. My strongest contribution is transforming
+                        functional requirements into clear, well-structured applications with
+                        readable code, reusable components, and careful attention to user
+                        experience.
+                    </p>
+                </article>
+
+                <article class="panel">
+                    <div class="panel__header">
+                        <p class="panel__label">Background</p>
+                        <h2>Experience</h2>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline__item">
+                            <div class="timeline__meta">
+                                <h3>Backend Development Intern</h3>
+                                <p>Andes Software Lab · 2025 - Present</p>
+                            </div>
+                            <p>
+                                Supported the implementation of internal Django modules, optimized
+                                reusable templates, and documented API endpoints for cross-team use.
+                            </p>
+                        </div>
+                        <div class="timeline__item">
+                            <div class="timeline__meta">
+                                <h3>Freelance Web Developer</h3>
+                                <p>Independent Projects · 2024 - 2025</p>
+                            </div>
+                            <p>
+                                Delivered portfolio and small business sites with responsive layouts,
+                                semantic HTML, and accessible front-end structure.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="panel">
+                    <div class="panel__header">
+                        <p class="panel__label">Academic Journey</p>
+                        <h2>Education</h2>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline__item">
+                            <div class="timeline__meta">
+                                <h3>B.Sc. in Systems Engineering</h3>
+                                <p>Universidad Mariana · 2022 - Present</p>
+                            </div>
+                            <p>
+                                Coursework focused on software engineering, databases, web
+                                development, version control, and quality assurance.
+                            </p>
+                        </div>
+                        <div class="timeline__item">
+                            <div class="timeline__meta">
+                                <h3>Python and Web Development Certification</h3>
+                                <p>Online Professional Program · 2024</p>
+                            </div>
+                            <p>
+                                Completed practical projects involving Django routing, templates,
+                                static assets, and Git collaboration workflows.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <aside class="side-column">
+                <article class="panel">
+                    <div class="panel__header">
+                        <p class="panel__label">Capabilities</p>
+                        <h2>Skills</h2>
+                    </div>
+                    <ul class="tag-list">
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>REST APIs</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Git & GitFlow</li>
+                        <li>Responsive Design</li>
+                        <li>SQL Basics</li>
+                        <li>Technical Writing</li>
+                    </ul>
+                </article>
+
+                <article class="panel">
+                    <div class="panel__header">
+                        <p class="panel__label">References</p>
+                        <h2>Links</h2>
+                    </div>
+                    <ul class="link-list">
+                        <li><a href="https://github.com/lauramendoza-dev" target="_blank" rel="noreferrer">GitHub Profile</a></li>
+                        <li><a href="https://lauramendoza.dev" target="_blank" rel="noreferrer">Personal Portfolio</a></li>
+                        <li><a href="https://www.linkedin.com/in/lauramendoza-dev" target="_blank" rel="noreferrer">LinkedIn</a></li>
+                    </ul>
+                </article>
+
+                <article class="panel">
+                    <div class="panel__header">
+                        <p class="panel__label">Working Style</p>
+                        <h2>Strengths</h2>
+                    </div>
+                    <ul class="strength-list">
+                        <li>Clean and maintainable Django structure</li>
+                        <li>Clear communication in collaborative teams</li>
+                        <li>Fast adaptation to project standards</li>
+                        <li>Consistent documentation and version control habits</li>
+                    </ul>
+                </article>
+            </aside>
+        </section>
+    </main>
+</body>
+</html>
