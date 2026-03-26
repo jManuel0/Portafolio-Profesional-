@@ -16,8 +16,20 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse("""
+        <h1>Portafolio Profesional</h1>
+        <ul>
+            <li><a href='/carlos_andres/'>Carlos Andres</a></li>
+            <li><a href='/developer1/'>Developer 1</a></li>
+        </ul>
+    """)
 
 urlpatterns = [
+    path('', home),  # 👈 ESTO ARREGLA EL 404
     path('admin/', admin.site.urls),
     path('developer1/', include('developer1.urls')),
+    path('carlos_andres/', include('carlos_andres.urls')),
 ]
